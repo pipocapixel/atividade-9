@@ -2,4 +2,25 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+:root{
+    --main-fundo:#a5f3fc;
+    --text-color:#020617;
+    --nav-fundo:#06b6d4;
+}
+
+body{
+    background: var(--main-fundo);
+    color: var(--text-color);
+    display: flex;
+    flex-direction: column;
+    height: 100svh;
+    justify-content: center;
+    align-items: center;
+}
+
+nav{
+    background: var(--nav-fundo);
 }
